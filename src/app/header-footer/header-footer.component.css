@@ -1,0 +1,56 @@
+* {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+header {
+  padding: 7% 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1em;
+}
+
+#foto {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+}
+
+.padre {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 10%;
+  margin-top: 7%;
+}
+
+.hijo-uno {
+  padding: 1em 2em 0 10em;
+  line-height: 2em;
+  border: solid 1px red;
+}
+s dl {
+  display: block;
+}
+
+dt {
+  clear: left;
+  float: left;
+}
+
+dt::after {
+  content: ": ";
+}
+
+dd {
+  margin: 0 0 0.85em 5.5em;
+}
+
+.hijo-dos {
+  padding: 1em 10em 0 2em;
+}
