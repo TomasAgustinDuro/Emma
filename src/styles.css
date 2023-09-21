@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+}
+
 html {
   height: 100%;
   background-image: linear-gradient(#add8e6, #c78c95);
