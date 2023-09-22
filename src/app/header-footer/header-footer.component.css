@@ -21,11 +21,14 @@ p {
   border-radius: 50%;
 }
 
+/* footer */
+
 .padre {
   display: grid;
   gap: 6em;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 2em;
+  height: 20em;
 }
 
 .hijo-uno {

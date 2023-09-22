@@ -7,7 +7,7 @@ import { SeccionTresComponent } from './seccion-tres/seccion-tres.component';
 import { SeccionCuatroComponent } from './seccion-cuatro/seccion-cuatro.component';
 
 const routes: Routes = [
-  { path: '', component: HeaderFooterComponent },
+  { path: '', component: SeccionUnoComponent },
   { path: 'PrimeraSeccion', component: SeccionUnoComponent },
   { path: 'SegundaSeccion', component: SeccionDosComponent },
   { path: 'TerceraSeccion', component: SeccionTresComponent },
