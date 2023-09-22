@@ -4,21 +4,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderFooterComponent } from './header-footer/header-footer.component';
-import { ContenidoComponent } from './contenido/contenido.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { SeccionUnoComponent } from './seccion-uno/seccion-uno.component';
+import { SeccionDosComponent } from './seccion-dos/seccion-dos.component';
+import { SeccionTresComponent } from './seccion-tres/seccion-tres.component';
+import { SeccionCuatroComponent } from './seccion-cuatro/seccion-cuatro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderFooterComponent,
-    ContenidoComponent,
-    NavBarComponent
+    NavBarComponent,
+    SeccionUnoComponent,
+    SeccionDosComponent,
+    SeccionTresComponent,
+    SeccionCuatroComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

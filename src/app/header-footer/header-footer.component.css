@@ -1,10 +1,9 @@
 * {
-  font-family: "Raleway", sans-serif;
   color: white;
 }
 
 header {
-  padding: 7% 0;
+  padding: 9% 0;
   text-align: center;
 }
 
@@ -24,18 +23,24 @@ p {
 
 .padre {
   display: grid;
+  gap: 6em;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 10%;
-  margin-top: 7%;
+  margin-top: 2em;
 }
 
 .hijo-uno {
   padding: 1em 2em 0 10em;
   line-height: 2em;
-  border: solid 1px red;
 }
-s dl {
+
+.hijo-uno p {
+  margin: 1.5em 0;
+}
+
+dl {
   display: block;
+  margin-top: 1.5em;
+  padding: 0.5em 0;
 }
 
 dt {
@@ -53,4 +58,20 @@ dd {
 
 .hijo-dos {
   padding: 1em 10em 0 2em;
+}
+
+.redes-hijo-dos {
+  margin-top: 2em;
+}
+
+.redes-hijo-dos a {
+  margin-right: 1em;
+}
+
+.learn {
+  box-shadow: inset 0 0 0 1px white;
+}
+
+.learn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }

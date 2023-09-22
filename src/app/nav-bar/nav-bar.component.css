@@ -3,6 +3,7 @@ nav {
   color: black;
   margin: auto;
   width: 90%;
+  border-radius: 1em 1em 0 0;
 }
 
 ul {
