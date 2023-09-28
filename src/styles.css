@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
 * {
   list-style: none;
   text-decoration: none;
@@ -11,19 +13,17 @@ a {
   color: inherit;
 }
 
-html {
-  height: 110%;
+body {
   background-image: linear-gradient(#88cce2, #c78c95);
 }
 
-.learn {
-  box-shadow: inset 0 0 0 1px #acaaaa;
-  padding: 1em 3em;
-  border-radius: 0.5em;
-  align-items: center;
-  justify-content: center;
+.btn {
+  margin: 1em;
+  padding: 0.5em 1.5em;
 }
 
-.learn:hover {
-  background-color: rgba(104, 104, 104, 0.1);
+section {
+  text-align: center;
+  background-color: white;
+  color: black;
 }

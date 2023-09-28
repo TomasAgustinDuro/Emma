@@ -10,7 +10,7 @@ export class SeccionCuatroComponent {
   // Se inyecta el padre para poder utilizar sus metodos
   constructor(@Inject(AppComponent) private padre: AppComponent) {}
 
-  // se crea un metodo para el hijo y se llama al metodo original del padre.
+  // se crea un metodo para el hijo y se llama al metodo original del padre. 
   resetearScrollHijo(): void {
     this.padre.resetearScrollPosicion();
   }
