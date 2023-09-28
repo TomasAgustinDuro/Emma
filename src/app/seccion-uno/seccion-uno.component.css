@@ -1,0 +1,22 @@
+.seccion-uno {
+  padding: 8.5em 0;
+}
+
+.seccion-uno h1::after {
+  display: block;
+  content: "";
+  width: 3.25em;
+  height: 2px;
+  margin: 0.5em 0 1em 0;
+  border-radius: 2px;
+  background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+}
+
+img {
+  width: 15em;
+  height: 15em;
+  border-radius: 100%;
+  margin: auto;
+  border: 10px solid transparent;
+  background: conic-gradient(from 0deg, #add8e6, #ffb6c1);
+}

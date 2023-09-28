@@ -1,27 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
 * {
   list-style: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
   color: inherit;
 }
 
-html {
-  height: 100%;
-  background-image: linear-gradient(#add8e6, #c78c95);
+body {
+  background-image: linear-gradient(#88cce2, #c78c95);
 }
 
-#learn {
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-  padding: 1em;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 300;
-  min-width: 9.25em;
-  height: 2.75em;
-  line-height: 2.75em;
+.btn {
+  margin: 1em;
+  padding: 0.5em 1.5em;
+}
+
+section {
+  text-align: center;
+  background-color: white;
+  color: black;
 }

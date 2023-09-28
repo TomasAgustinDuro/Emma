@@ -1,21 +1,32 @@
-<html>
-  <header>
-    <img src="../../assets/image/walppaper.jpg" alt="" id="foto" />
-    <h1>Stella</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      <br />
-      Vitae laboriosam repellendus.
-    </p>
+<html class="container">
+  <header class="container">
+    <div class="col text-center">
+      <div class="col-md-12">
+        <a routerLink="/"
+          ><img
+            src="../../assets/image/walppaper.jpg"
+            alt=""
+            class="img-fluid"
+            id="foto"
+        /></a>
+      </div>
+      <div class="col-md-12">
+        <h1>Stella</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br />
+          Vitae laboriosam repellendus.
+        </p>
+      </div>
+    </div>
   </header>
 
   <app-nav-bar></app-nav-bar>
+  <router-outlet></router-outlet>
 
-  <app-contenido></app-contenido>
-
-  <footer>
-    <div class="padre">
-      <div class="hijo-uno">
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
         <h2>Descripción</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -23,22 +34,90 @@
           officia error ipsam inventore fugit perspiciatis optio ratione
           molestiae perferendis quasi aspernatur.
         </p>
-        <a href="#" id="learn">Leer más</a>
+        <a href="#" class="btn btn-outline-light">Leer más</a>
       </div>
-      <div class="hijo-dos">
+      <div class="col-6">
         <div class="txt-hijo-dos">
           <h2>Contacto</h2>
           <dl>
-            <strong><dt>Dirección</dt></strong>
+            <dt><strong>Dirección</strong></dt>
             <dd>Calle Falsa 123, CABA, Argentina</dd>
-            <strong><dt>Teléfono</dt></strong>
+            <dt><strong>Teléfono</strong></dt>
             <dd>123456789</dd>
-            <strong><dt>Email</dt></strong>
+            <dt><strong>E-mail</strong></dt>
             <dd>emailfalso@gmail.com</dd>
           </dl>
         </div>
 
-        <div class="redes-hijo-dos">tw fc in git web</div>
+        <div class="redes-hijo-dos">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-x"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <!-- Icono X -->
+            </svg></a
+          >
+
+          <a href=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-facebook-filled"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <!-- Icono Facebook lleno -->
+            </svg></a
+          >
+
+          <a href=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-instagram"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <!-- Icono Instagram -->
+            </svg></a
+          >
+
+          <a href=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-youtube-filled"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <!-- Icono YouTube lleno -->
+            </svg></a
+          >
+        </div>
       </div>
     </div>
   </footer>
