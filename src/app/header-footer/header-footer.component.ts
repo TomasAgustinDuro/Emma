@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { fadeIn } from '../../animations/fadeIN';
+import { fadeIn } from '../../animations/fadeIn';
 import { caida } from '../../animations/down';
 
 @Component({
