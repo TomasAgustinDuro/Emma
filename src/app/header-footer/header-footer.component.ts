@@ -11,6 +11,8 @@ import { caida } from '../../animations/down';
 export class HeaderFooterComponent implements OnInit {
   constructor() {}
 
+  title: String = 'Emma';
+
   ngOnInit(): void {
     this.resetearScrollPosicion();
   }

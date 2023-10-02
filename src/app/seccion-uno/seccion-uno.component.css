@@ -18,6 +18,5 @@ img {
   height: 15em;
   border-radius: 100%;
   margin: auto;
-  border: 10px solid transparent;
-  background: conic-gradient(from 0deg, #add8e6, #ffb6c1);
+  border: 1px solid black;
 }
