@@ -11,16 +11,18 @@ img {
   height: 15em;
   border-radius: 100%;
   margin-left: 2.2em;
-  border: 10px solid transparent;
-  background: conic-gradient(from 0deg, #add8e6, #ffb6c1);
+  padding: 0.5em;
+  border: 1px solid black;
+  /* background: conic-gradient(from 0deg, #add8e6, #ffb6c1); */
 }
 
 .seccion-dos h1::after {
-  display: flex;
+  display: block;
   content: "";
   width: 3.25em;
   height: 2px;
-  margin: 1em auto;
+  margin: 0.5em auto; /* Centra horizontalmente */
   border-radius: 2px;
   background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+  position: relative;
 }

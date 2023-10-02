@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { fadeIn } from '../../animations/fadeIN';
+import { fadeIn } from '../../animations/fadeIn';
 import { caida } from '../../animations/down';
 
 @Component({
@@ -10,6 +10,8 @@ import { caida } from '../../animations/down';
 })
 export class HeaderFooterComponent implements OnInit {
   constructor() {}
+
+  title: String = 'Emma';
 
   ngOnInit(): void {
     this.resetearScrollPosicion();
