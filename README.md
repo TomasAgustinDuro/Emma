@@ -1,27 +1,53 @@
-# EmmaWeb
+# Plantilla Web Informativa para Empresas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Este proyecto es una plantilla web diseñada para empresas que desean tener una presencia online informativa y profesional. Está construida con Angular y se despliega utilizando Firebase Hosting. La plantilla es altamente personalizable y puede adaptarse fácilmente a las necesidades específicas de cualquier tipo de empresa.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Diseño moderno y responsive que se adapta a diferentes dispositivos y tamaños de pantalla.
+- Páginas predefinidas para información corporativa, productos/servicios, contacto y más.
+- Integración con Firebase para un despliegue rápido y confiable en la web.
+- Fácil de personalizar y mejorar según las necesidades de la empresa.
+- Sección de noticias o blog para compartir actualizaciones y novedades de la empresa.
+- Galería de imágenes para mostrar productos, instalaciones o eventos de la empresa.
+- Formulario de contacto para que los visitantes puedan comunicarse fácilmente con la empresa.
 
-## Code scaffolding
+## Requisitos Previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js y npm instalados en tu sistema.
+- Angular CLI instalado globalmente (`npm install -g @angular/cli`).
+- Una cuenta de Firebase para el despliegue en Firebase Hosting.
 
-## Build
+## Instalación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este repositorio en tu máquina local usando `git clone`.
+2. Navega al directorio del proyecto y ejecuta `npm install` para instalar las dependencias.
+3. Configura tu proyecto en Firebase y obtén las credenciales necesarias.
+4. Configura Firebase Hosting para tu proyecto Angular.
+5. Ejecuta `ng serve` para ejecutar el proyecto en modo de desarrollo.
 
-## Running unit tests
+## Despliegue
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para desplegar la aplicación en Firebase Hosting, sigue estos pasos:
 
-## Running end-to-end tests
+1. Ejecuta `ng build` para compilar el proyecto. Esto generará la carpeta `dist/` con los archivos compilados.
+2. Inicia sesión en Firebase usando `firebase login`.
+3. Configura tu proyecto de Firebase usando `firebase init`.
+4. Selecciona Firebase Hosting como el servicio que deseas configurar.
+5. Selecciona tu proyecto de Firebase.
+6. Especifica `dist/` como el directorio público.
+7. Ejecuta `firebase deploy` para desplegar la aplicación en Firebase Hosting.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+¡Listo! Tu aplicación ahora está desplegada y disponible en la web.
 
-## Further help
+## Contribuir
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Si deseas contribuir a este proyecto, ¡eres bienvenido! Siéntete libre de abrir problemas (issues) y enviar solicitudes de extracción (pull requests) con tus sugerencias, mejoras o correcciones.
+
+## Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE).
+
+---
+
+¡Esperamos que esta plantilla te ayude a crear una presencia online impresionante para tu empresa! Si tienes alguna pregunta o necesitas ayuda, no dudes en ponerte en contacto con nosotros.
